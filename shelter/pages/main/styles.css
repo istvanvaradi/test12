@@ -1,0 +1,306 @@
+body{
+   width: 1280px;
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 0.06em;
+}
+
+
+header{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items:center;
+}
+.logo{
+    top:80px;
+}
+.logo h5{
+   font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+
+}
+
+h1{
+font-family: 'Georgia';
+font-style: normal;
+font-weight:100;
+font-size: 32px;
+
+/* or 35px */
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #F1CDB3;
+}
+.top-section{
+    background-image: url("/assets//images/start-screen-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    padding-top: 2.2rem;
+    padding-left: 2.4rem;
+    margin: 0;
+    color: #FAFAFA;
+}
+/*nav starts*/
+nav{
+    background-color: transparent;
+    color: #CDCDCD;
+    font-size: small;
+    width: 40vw;
+    position: absolute;
+    top:60px;
+    left: 62%;
+   
+    
+}
+
+ul{
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+    margin: auto;
+    overflow: hidden;  
+    display: inline-flex;
+}
+
+li {
+    background-color: transparent;
+    margin: 10px;
+    display: flex;  
+}
+a{
+color: #CDCDCD;
+text-decoration: none;
+}
+nav ul li :first-child{
+    border-bottom:2px solid wheat ;
+    padding-bottom: 2px;
+}
+
+/*Nav ends*/
+.intro{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: space-around;
+
+}
+
+.intro-text h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    font-weight: 400;
+    width: 310px;
+    line-height: 57px;
+}
+.intro-text{
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.btn-main{
+    
+    width: 207px;
+    border-radius: 100px;
+    border: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#292929;
+    background-color: #F1CDB3;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+}
+.btn-secondary{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 187px;
+height: 52px;
+left: 41.5px;
+top: 353px;
+
+}
+/*about section*/
+
+#about{
+    width: 1280px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-txt{
+width: 1200px;
+color: #292929;
+width: 29vw;
+display: flex;
+flex-direction: column;
+align-items:  flex-start;
+padding: 4rem;
+}
+.about-txt h3{
+width: 370px;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+/* or 45px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
+.about-txt p{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #4C4C4C;
+}
+/*about ends*/
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #545454;;
+    justify-content: space-around;
+   
+}
+.cards p{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+/* our-friends-section*/
+
+#our-friends{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+     margin: 2.5rem;
+    
+}
+
+#our-friends h3{  
+text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 0.06em;
+color: #545454;
+}
+
+ .circle {
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  padding: 23px 19px;
+  background: #fff;
+  border: 2px solid #F1CDB3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23px 19px;
+  box-sizing: border-box;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35)); 
+  border-radius: 100px;
+}
+
+/*how you can help*/
+#helpforus{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#helpforus h3{
+width: 370px;
+text-align: center;
+font-style: normal;
+
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.icons5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+ 
+}
+.icon4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconItem{
+    width: 82px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    margin:70px; 
+}
+.iconItem h4{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:#545454;
+
+width: 165px;
+line-height: 25px;
+text-align: center;
+}
+
+/*Donation*/
+#donate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.donation-content2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
